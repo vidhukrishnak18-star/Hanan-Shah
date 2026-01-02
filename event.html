@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!-- Title -->
+    <title>One Music - Modern Music HTML5 Template</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="img/core-img/favicon.ico">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div class="preloader d-flex align-items-center justify-content-center">
+        <div class="lds-ellipsis">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+    <!-- ##### Header Area Start ##### -->
+    <header class="header-area">
+        <!-- Navbar Area -->
+        <div class="oneMusic-main-menu">
+            <div class="classy-nav-container breakpoint-off">
+                <div class="container">
+                    <!-- Menu -->
+                    <nav class="classy-navbar justify-content-between" id="oneMusicNav">
+
+                        <!-- Nav brand -->
+                        <h1 class="text-white">vk</h1>
+
+                        <!-- Navbar Toggler -->
+                        <div class="classy-navbar-toggler">
+                            <span class="navbarToggler"><span></span><span></span><span></span></span>
+                        </div>
+
+                        <!-- Menu -->
+                        <div class="classy-menu">
+
+                            <!-- Close Button -->
+                            <div class="classycloseIcon">
+                                <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                            </div>
+
+                            <!-- Nav Start -->
+                            <div class="classynav ml-auto">
+                                <ul>
+                                    <li><a href="index.html"style="color: white;">Home</a></li>
+                                    <li><a href="albums-store.html"style="color: white;">Albums</a></li>
+                                    <li><a href="event.html"style="color: white;">Events</a></li>
+                                    <li><a href="contact.html"style="color: white;">Contact</a></li>
+                                </ul>
+
+                                <!-- Login/Register & Cart Button -->
+                                <div class="login-register-cart-button d-flex align-items-center">
+                                    <!-- Login/Register -->
+                                    <div class="login-register-btn mr-50">
+                                        <a href="login.html" id="loginBtn">Login / Register</a>
+                                    </div>
+
+                                    <!-- Cart Button -->
+                                    <div class="cart-btn">
+                                        <p><span class="icon-shopping-cart"></span> <span class="quantity">1</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Nav End -->
+
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ##### Header Area End ##### -->
+
+    <!-- ##### Breadcumb Area Start ##### -->
+    <section class="breadcumb-area bg-img bg-overlay" style="background-image: url(img/bg-img/breadcumb3.jpg);">
+        <div class="bradcumbContent">
+            <p>See what’s new</p>
+            <h2>Events</h2>
+        </div>
+    </section>
+    <!-- ##### Breadcumb Area End ##### -->
+
+    <!-- ##### Events Area Start ##### -->
+    <section class="events-area section-padding-100">
+        <div class="container">
+            <div class="row">
+
+                <!-- Single Event Area -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="single-event-area mb-30">
+                        <div class="event-thumbnail">
+                            <img src="https://tse3.mm.bing.net/th/id/OIP.yi5h3GgB6an7sXpxkDOY1QHaJQ?rs=1&pid=ImgDetMain&o=7&rm=3" alt="">
+                        </div>
+                        <div class="event-text">
+                            <h4>Dj Night Party</h4>
+                            <div class="event-meta-data">
+                                <a href="#" class="event-place">VIP Sala</a>
+                                <a href="#" class="event-date">June 16, 2025</a>
+                            </div>
+                            <a href="#" class="btn see-more-btn">See Event</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Event Area -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="single-event-area mb-30">
+                        <div class="event-thumbnail">
+                            <img src="data:image/jpeg;base64,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" alt="">
+                        </div>
+                        <div class="event-text">
+                            <h4>The Mission</h4>
+                            <div class="event-meta-data">
+                                <a href="#" class="event-place">Gold Arena</a>
+                                <a href="#" class="event-date">June 15, 2018</a>
+                            </div>
+                            <a href="#" class="btn see-more-btn">See Event</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Event Area -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="single-event-area mb-30">
+                        <div class="event-thumbnail">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWaESrGRr6HYDH6Jm_LaGwgiLObY1L-nMemA&s" alt="">
+                        </div>
+                        <div class="event-text">
+                            <h4>Planet ibiza</h4>
+                            <div class="event-meta-data">
+                                <a href="#" class="event-place">Space Ibiza</a>
+                                <a href="#" class="event-date">June 15, 2018</a>
+                            </div>
+                            <a href="#" class="btn see-more-btn">See Event</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Event Area -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="single-event-area mb-30">
+                        <div class="event-thumbnail">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBSbepQaWe_YnhmWTij8ZChcI8HLR0XOM4Mg&s" alt="">
+                        </div>
+                        <div class="event-text">
+                            <h4>Dj Night Party</h4>
+                            <div class="event-meta-data">
+                                <a href="#" class="event-place">VIP Sala</a>
+                                <a href="#" class="event-date">June 15, 2018</a>
+                            </div>
+                            <a href="#" class="btn see-more-btn">See Event</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Event Area -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="single-event-area mb-30">
+                        <div class="event-thumbnail">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSigJR35PIsUflmCBNjFQ50SkN7m0tLJNWN4w&s" alt="">
+                        </div>
+                        <div class="event-text">
+                            <h4>The Mission</h4>
+                            <div class="event-meta-data">
+                                <a href="#" class="event-place">Gold Arena</a>
+                                <a href="#" class="event-date">June 15, 2018</a>
+                            </div>
+                            <a href="#" class="btn see-more-btn">See Event</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Event Area -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="single-event-area mb-30">
+                        <div class="event-thumbnail">
+                            <img src="https://ahamconcert.com/hero.jpg" alt="">
+                        </div>
+                        <div class="event-text">
+                            <h4>Planet ibiza</h4>
+                            <div class="event-meta-data">
+                                <a href="#" class="event-place">Space Ibiza</a>
+                                <a href="#" class="event-date">June 15, 2018</a>
+                            </div>
+                            <a href="#" class="btn see-more-btn">See Event</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Event Area -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="single-event-area mb-30">
+                        <div class="event-thumbnail">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRo9XPBWUGKUhcP9OjjKLR2Dj5soD-470ZIuw&s" alt="">
+                        </div>
+                        <div class="event-text">
+                            <h4>Dj Night Party</h4>
+                            <div class="event-meta-data">
+                                <a href="#" class="event-place">VIP Sala</a>
+                                <a href="#" class="event-date">June 15, 2018</a>
+                            </div>
+                            <a href="#" class="btn see-more-btn">See Event</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Event Area -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="single-event-area mb-30">
+                        <div class="event-thumbnail">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzrpo4kwgNaflMrFtkwns_09-fqbkg63QQiA&s" alt="">
+                        </div>
+                        <div class="event-text">
+                            <h4>The Mission</h4>
+                            <div class="event-meta-data">
+                                <a href="#" class="event-place">Gold Arena</a>
+                                <a href="#" class="event-date">June 15, 2018</a>
+                            </div>
+                            <a href="#" class="btn see-more-btn">See Event</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Event Area -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="single-event-area mb-30">
+                        <div class="event-thumbnail">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHdrPRy3-5-1OaiWAqutamCQw43RHEwB4Geg&s" alt="">
+                        </div>
+                        <div class="event-text">
+                            <h4>Planet ibiza</h4>
+                            <div class="event-meta-data">
+                                <a href="#" class="event-place">Space Ibiza</a>
+                                <a href="#" class="event-date">June 15, 2018</a>
+                            </div>
+                            <a href="#" class="btn see-more-btn">See Event</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class="col-12">
+                    <div class="load-more-btn text-center mt-70">
+                        <a href="#" class="btn oneMusic-btn">Load More <i class="fa fa-angle-double-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ##### Events Area End ##### -->
+
+    <!-- ##### Newsletter & Testimonials Area Start ##### -->
+    <section class="newsletter-testimonials-area">
+        <div class="container">
+            <div class="row">
+
+                <!-- Newsletter Area -->
+                <div class="col-12 col-lg-6">
+                    <div class="newsletter-area mb-100">
+                        <div class="section-heading text-left mb-50">
+                            <p>See what’s new</p>
+                            <h2>Subscribe to newsletter</h2>
+                        </div>
+                        <div class="newsletter-form">
+                            <form action="#">
+                                <input type="search" name="search" id="newsletterSearch" placeholder="E-mail">
+                                <button type="submit" class="btn oneMusic-btn">Subscribe <i class="fa fa-angle-double-right"></i></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonials Area -->
+                <div class="col-12 col-lg-6">
+                    <div class="testimonials-area mb-100 bg-img bg-overlay" style="background-image: url(img/bg-img/bg-3.jpg);">
+                        <div class="section-heading white text-left mb-50">
+                            <p>See what’s new</p>
+                            <h2>Testimonial</h2>
+                        </div>
+                        <!-- Testimonial Slide -->
+                        <div class="testimonials-slide owl-carousel">
+                            <!-- Single Slide -->
+                            <div class="single-slide">
+                                <p>Nam tristique ex vel magna tincidunt, ut porta nisl finibus. Vivamus eu dolor eu quam varius rutrum. Fusce nec justo id sem aliquam fringilla nec non lacus. Suspendisse eget lobortis nisi, ac cursus odio. Vivamus nibh velit, rutrum.</p>
+                                <div class="testimonial-info d-flex align-items-center">
+                                    <div class="testimonial-thumb">
+                                        <img src="img/bg-img/t1.jpg" alt="">
+                                    </div>
+                                    <p>William Smith, Customer</p>
+                                </div>
+                            </div>
+                            <!-- Single Slide -->
+                            <div class="single-slide">
+                                <p>Nam tristique ex vel magna tincidunt, ut porta nisl finibus. Vivamus eu dolor eu quam varius rutrum. Fusce nec justo id sem aliquam fringilla nec non lacus. Suspendisse eget lobortis nisi, ac cursus odio. Vivamus nibh velit, rutrum.</p>
+                                <div class="testimonial-info d-flex align-items-center">
+                                    <div class="testimonial-thumb">
+                                        <img src="img/bg-img/t1.jpg" alt="">
+                                    </div>
+                                    <p>Nazrul Islam, Developer</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- ##### Newsletter & Testimonials Area End ##### -->
+
+    <!-- ##### Contact Area Start ##### -->
+    <section class="contact-area section-padding-100 bg-img bg-overlay bg-fixed has-bg-img" style="background-image: url(img/bg-img/bg-2.jpg);">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-heading white">
+                        <p>See what’s new</p>
+                        <h2>Get In Touch</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12">
+                    <!-- Contact Form Area -->
+                    <div class="contact-form-area">
+                        <form action="#" method="post">
+                            <div class="row">
+                                <div class="col-md-6 col-lg-4">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" id="name" placeholder="Name">
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-4">
+                                    <div class="form-group">
+                                        <input type="email" class="form-control" id="email" placeholder="E-mail">
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" id="subject" placeholder="Subject">
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <textarea name="message" class="form-control" id="message" cols="30" rows="10" placeholder="Message"></textarea>
+                                    </div>
+                                </div>
+                                <div class="col-12 text-center">
+                                    <button class="btn oneMusic-btn mt-30" type="submit">Send <i class="fa fa-angle-double-right"></i></button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ##### Contact Area End ##### -->
+
+    <!-- ##### Footer Area Start ##### -->
+    <footer class="footer-area">
+        <div class="container">
+            <div class="row d-flex flex-wrap align-items-center">
+                <div class="col-12 col-md-6">
+                  <h1 class="text-white">vk</h1>
+                    <p class="copywrite-text"><a href="#"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+                </div>
+
+                <div class="col-12 col-md-6">
+                    <div class="footer-nav">
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Albums</a></li>
+                            <li><a href="#">Events</a></li>
+                            <li><a href="#">News</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- ##### Footer Area Start ##### -->
+
+    <!-- ##### All Javascript Script ##### -->
+    <!-- jQuery-2.2.4 js -->
+    <script src="js/jquery/jquery-2.2.4.min.js"></script>
+    <!-- Popper js -->
+    <script src="js/bootstrap/popper.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <!-- All Plugins js -->
+    <script src="js/plugins/plugins.js"></script>
+    <!-- Active js -->
+    <script src="active.js"></script>
+</body>
+
+</html>
